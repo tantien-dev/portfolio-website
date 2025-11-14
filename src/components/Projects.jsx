@@ -2,12 +2,17 @@ import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { fadeInUp } from "../utils/motion";
 
+// Import ảnh dự án từ assets
+import crmAppImg from "../assets/projects/crm-app.jpg";
+import portfolioImg from "../assets/projects/portfolio-preview.jpg";
+import landingBusinessImg from "../assets/projects/landing-business.jpg";
+
 const projects = [
   {
     name: "CRM Lite Application",
     desc: "Ứng dụng quản lý khách hàng (CRM) với giao diện hiện đại và dễ sử dụng. Cho phép thêm, chỉnh sửa, lọc và tìm kiếm khách hàng theo thời gian thực. Hệ thống được xây dựng bằng React, Node.js, Express và JSON Server nhằm mô phỏng API và dữ liệu thực tế.",
     tech: ["React", "Node.js", "Express", "JSON Server"],
-    img: "/src/assets/projects/crm-app.jpg",
+    img: crmAppImg,
     live: "https://crm-mini-frontend.onrender.com",
     code: "https://github.com/yourusername/crm-mini-app",
   },
@@ -15,7 +20,7 @@ const projects = [
     name: "Personal Portfolio Website",
     desc: "Website cá nhân được thiết kế với bố cục hiện đại, tối ưu trải nghiệm người dùng và hiệu ứng động tinh tế. Trang web giới thiệu kỹ năng, dự án và hành trình phát triển sự nghiệp công nghệ của tôi — được xây dựng hoàn toàn bằng React, TailwindCSS và Framer Motion.",
     tech: ["React", "TailwindCSS", "Framer Motion"],
-    img: "/src/assets/projects/portfolio-preview.jpg",
+    img: portfolioImg,
     live: "#",
     code: "https://github.com/yourusername/portfolio",
   },
@@ -23,7 +28,7 @@ const projects = [
     name: "Landing Page Business Template",
     desc: "Mẫu website landing page dành cho doanh nghiệp nhỏ, được tối ưu SEO, tốc độ tải nhanh và tương thích đa thiết bị. Dự án thể hiện khả năng thiết kế giao diện hiện đại, triển khai UI/UX mạch lạc và sử dụng kỹ thuật tối ưu hiệu suất React + Tailwind.",
     tech: ["React", "TailwindCSS", "Vite"],
-    img: "/src/assets/projects/landing-business.jpg",
+    img: landingBusinessImg,
     live: "#",
     code: "https://github.com/yourusername/landing-business",
   },
