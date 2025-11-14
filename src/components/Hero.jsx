@@ -9,6 +9,9 @@ import {
 import { ArrowRight, Mail, ChevronDown } from "lucide-react";
 import Typewriter from "typewriter-effect";
 
+// Import ảnh avatar từ assets
+import avatar from "../assets/avatar.png";
+
 export default function Hero() {
   const sectionRef = useRef(null);
   const canvasRef = useRef(null);
@@ -185,7 +188,7 @@ export default function Hero() {
           className="absolute inset-0 bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 opacity-60 blur-2xl rounded-full"
         />
         <img
-          src="/src/assets/avatar.png"
+          src={avatar}
           alt="Nguyễn Tấn Tiền"
           className="relative w-full h-full object-cover rounded-full"
         />
