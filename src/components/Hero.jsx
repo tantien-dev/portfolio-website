@@ -239,7 +239,7 @@ export default function Hero() {
         initial="hidden"
         animate={controls}
         custom={0.6}
-        className="text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed"
+        className="text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed px-6"
       >
         Tôi là{" "}
         <span className="font-semibold text-indigo-600">
@@ -269,7 +269,7 @@ export default function Hero() {
         animate={controls}
         custom={0.8}
         style={{ opacity: opacityHero }}
-        className="flex flex-wrap justify-center gap-4"
+        className="flex flex-wrap justify-center gap-4 px-6"
       >
         <motion.button
           onClick={() => scrollToSection("projects")}
