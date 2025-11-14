@@ -245,7 +245,7 @@ export default function Contact() {
           },
           {
             icon: <Linkedin size={28} />,
-            href: "https://linkedin.com/in/tantien-dev",
+            href: "https://www.linkedin.com/in/tan-tien-dev/",
             label: "LinkedIn",
           },
         ].map((item, i) => (

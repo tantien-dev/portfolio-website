@@ -16,6 +16,7 @@ import {
   SiNextdotjs,
   SiPhp,
   SiFigma,
+  SiOpenai,
 } from "react-icons/si";
 import { useRef } from "react";
 
@@ -35,6 +36,7 @@ const skills = [
   { name: "MongoDB", icon: SiMongodb, color: "#47a248" },
   { name: "Git / GitHub", icon: FaGitAlt, color: "#f1502f" },
   { name: "Figma", icon: SiFigma, color: "#f24e1e" },
+  { name: "AI Integration (OpenAI API)", icon: SiOpenai, color: "#10a37f" },
 ];
 
 // Animation

@@ -10,7 +10,7 @@ import { ArrowRight, Mail, ChevronDown } from "lucide-react";
 import Typewriter from "typewriter-effect";
 
 // Import ảnh avatar từ assets
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/avatar.webp";
 
 export default function Hero() {
   const sectionRef = useRef(null);

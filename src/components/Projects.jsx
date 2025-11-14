@@ -14,7 +14,7 @@ const projects = [
     tech: ["React", "Node.js", "Express", "JSON Server"],
     img: crmAppImg,
     live: "https://crm-mini-frontend.onrender.com",
-    code: "https://github.com/yourusername/crm-mini-app",
+    code: "https://github.com/tantien-dev/crm-mini-react.git",
   },
   {
     name: "Personal Portfolio Website",
@@ -22,7 +22,7 @@ const projects = [
     tech: ["React", "TailwindCSS", "Framer Motion"],
     img: portfolioImg,
     live: "#",
-    code: "https://github.com/yourusername/portfolio",
+    code: "https://github.com/tantien-dev/portfolio-website",
   },
   {
     name: "Landing Page Business Template",
@@ -30,7 +30,7 @@ const projects = [
     tech: ["React", "TailwindCSS", "Vite"],
     img: landingBusinessImg,
     live: "#",
-    code: "https://github.com/yourusername/landing-business",
+    code: "https://github.com/tantien-dev",
   },
 ];
 
