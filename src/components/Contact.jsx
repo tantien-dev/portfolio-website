@@ -13,6 +13,9 @@ import { fadeInUp } from "../utils/motion";
 import confetti from "canvas-confetti";
 import emailjs from "@emailjs/browser";
 
+// Import âm thanh từ assets
+import successSound from "../assets/sounds/success.mp3";
+
 export default function Contact() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -167,11 +170,7 @@ export default function Contact() {
       className="relative py-24 bg-gradient-to-b from-white via-indigo-50/60 to-white overflow-hidden text-center"
     >
       {/* Âm thanh thành công */}
-      <audio
-        ref={audioRef}
-        src="/src/assets/sounds/success.mp3"
-        preload="auto"
-      />
+      <audio ref={audioRef} src={successSound} preload="auto" />
 
       {/* Canvas nền */}
       <canvas
