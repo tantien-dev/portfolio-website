@@ -207,7 +207,7 @@ export default function Hero() {
         custom={0.2}
         className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-2"
       >
-        Nguyễn Tấn Tiền 123
+        Nguyễn Tấn Tiền
       </motion.h1>
 
       <motion.div
