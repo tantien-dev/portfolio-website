@@ -6,6 +6,8 @@ import { fadeInUp } from "../utils/motion";
 import crmAppImg from "../assets/projects/crm-app.jpg";
 import portfolioImg from "../assets/projects/portfolio-preview.jpg";
 import landingBusinessImg from "../assets/projects/landing-business.jpg";
+import shinmeiDenzaiImg from "../assets/projects/shinmei-denzai.jpg";
+import officeRentalImg from "../assets/projects/office-rental.jpg";
 
 const projects = [
   {
@@ -15,6 +17,29 @@ const projects = [
     img: crmAppImg,
     live: "https://crm-mini-frontend.onrender.com",
     code: "https://github.com/tantien-dev/crm-mini-react.git",
+  },
+  {
+    name: "Shinmei Denzai Corporate Website",
+    desc: "Website giới thiệu doanh nghiệp cho công ty thương mại vật tư điện tại Nhật Bản. Trang cung cấp thông tin về sản phẩm, lĩnh vực kinh doanh, nhà sản xuất đối tác và hoạt động tuyển dụng. Giao diện được thiết kế theo phong cách tối giản, rõ ràng và tối ưu trải nghiệm cho người dùng Nhật.",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Figma",
+      "WordPress",
+    ],
+    img: shinmeiDenzaiImg,
+    live: "https://www.shinmei-denzai.co.jp/",
+    code: "#",
+  },
+  {
+    name: "Office Rental Real Estate Website",
+    desc: "Website bất động sản cho thuê văn phòng với hệ thống bộ lọc nâng cao, cho phép tìm kiếm theo diện tích, vị trí, giá và loại văn phòng. Giao diện hiện đại, trực quan, được xây dựng bằng theme Flatsome và tùy chỉnh với UX Builder trong WordPress, tối ưu cho doanh nghiệp và người tìm thuê.",
+    tech: ["WordPress", "Flatsome Theme", "UX Builder", "PHP", "JavaScript"],
+    img: officeRentalImg,
+    live: "https://26276.themes.vinawebsite.vn/",
+    code: "#",
   },
   {
     name: "Personal Portfolio Website",

@@ -52,7 +52,8 @@ export default function About() {
           <span className="font-medium text-purple-600">
             Frontend & WordPress Developer
           </span>{" "}
-          với hơn 4 năm kinh nghiệm phát triển website chuyên nghiệp. Tôi yêu
+          với hơn 4 năm kinh nghiệm phát triển website chuyên nghiệp, từng tham
+          gia nhiều dự án cho khách hàng Nhật và thị trường trong nước. Tôi yêu
           thích việc tạo nên những sản phẩm web{" "}
           <span className="text-indigo-500 font-semibold">
             hiệu năng cao – tinh tế – trải nghiệm người dùng vượt trội

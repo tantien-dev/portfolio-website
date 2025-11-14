@@ -83,29 +83,28 @@ export default function Skills() {
         custom={0.2}
         className="text-lg md:text-xl text-gray-600 text-center max-w-3xl mx-auto leading-relaxed mb-16 px-6"
       >
-        Tôi sở hữu nền tảng vững chắc trong{" "}
+        Tôi có nền tảng tốt trong{" "}
         <span className="font-medium text-indigo-600">
           phát triển Frontend và WordPress
         </span>
-        , cùng kiến thức mở rộng về{" "}
+        , đồng thời đang từng bước mở rộng sang{" "}
         <span className="font-medium text-purple-600">
-          Backend (Node.js, Express, MongoDB)
+          PHP và các kỹ năng backend cơ bản
         </span>
-        . Tôi thường xuyên làm việc với{" "}
-        <span className="text-indigo-500 font-semibold">React / Next.js</span>,{" "}
-        <span className="text-purple-500 font-semibold">Tailwind CSS</span> và
-        các công cụ thiết kế như{" "}
-        <span className="text-pink-500 font-semibold">Figma</span> để tạo nên
-        các sản phẩm web hiện đại, mượt mà và tối ưu hiệu năng. Hiện tôi đang
-        định hướng phát triển trở thành{" "}
-        <span className="font-semibold text-indigo-600">
+        . Tôi cũng đã tiếp cận và thực hành{" "}
+        <span className="text-indigo-500 font-semibold">React</span>,{" "}
+        <span className="text-purple-500 font-semibold">Tailwind CSS</span> để
+        cải thiện khả năng xây dựng giao diện hiện đại. Trong quá trình làm
+        việc, tôi chú trọng thiết kế rõ ràng, trải nghiệm người dùng mượt mà và
+        tối ưu hiệu suất cho website. Hiện tôi định hướng phát triển lên{" "}
+        <span className="text-pink-500 font-semibold">
           Full-Stack Developer
         </span>{" "}
-        và nghiên cứu{" "}
-        <span className="font-semibold text-purple-600">
-          tích hợp AI vào website
+        và tiếp tục học hỏi các công nghệ mới, bao gồm{" "}
+        <span className="font-semibold text-indigo-600">
+          React / Next.js, Node.js và ứng dụng AI
         </span>{" "}
-        nhằm mang lại trải nghiệm cá nhân hóa và thông minh hơn.
+        để tạo ra các sản phẩm web thông minh và hiệu quả hơn.{" "}
       </motion.p>
 
       {/* Lưới kỹ năng */}
