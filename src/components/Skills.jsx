@@ -67,7 +67,7 @@ export default function Skills() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="text-4xl md:text-5xl font-extrabold text-center mb-8 text-gray-900"
+        className="text-4xl md:text-5xl font-extrabold text-center mb-8 text-gray-900 px-6"
       >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-purple-500 to-pink-500">
           Kỹ năng chuyên môn
@@ -81,7 +81,7 @@ export default function Skills() {
         whileInView="visible"
         viewport={{ once: true }}
         custom={0.2}
-        className="text-lg md:text-xl text-gray-600 text-center max-w-3xl mx-auto leading-relaxed mb-16"
+        className="text-lg md:text-xl text-gray-600 text-center max-w-3xl mx-auto leading-relaxed mb-16 px-6"
       >
         Tôi sở hữu nền tảng vững chắc trong{" "}
         <span className="font-medium text-indigo-600">
